@@ -19,6 +19,10 @@ p {
   font-size: var(--md);
 }
 
+img {
+  height: 250px;
+}
+
 .info {
   padding-left: var(--md);
   margin-bottom: var(-sm);
@@ -43,6 +47,10 @@ p {
 
 span {
   font-size: 14px;
+}
+
+ul {
+  padding-left: var(--md);
 }
 
 .footer {
