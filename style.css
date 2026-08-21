@@ -1,0 +1,50 @@
+:root {
+  --sm: 8px;
+  --md: 16px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2,
+a {
+  font-family: "Courier New", monospace;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  font-size: var(--md);
+}
+
+.info {
+  padding-left: var(--md);
+  margin-bottom: var(-sm);
+}
+
+.section {
+  border: solid 1px darkgray;
+  padding-right: var(--md);
+  padding-bottom: var(--md);
+  padding-left: var(--md);
+  margin-bottom: var(--md);
+  margin-left: var(--md);
+}
+
+.card {
+  margin-bottom: var(--md);
+  margin-right: var(--md);
+  min-height: 256px;
+  width: 350px;
+  display: inline-block;
+}
+
+span {
+  font-size: 14px;
+}
+
+.footer {
+  margin-left: var(--md);
+}
