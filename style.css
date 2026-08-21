@@ -1,6 +1,7 @@
 :root {
   --sm: 8px;
   --md: 16px;
+  --lg: 56px;
 }
 
 body {
@@ -38,7 +39,7 @@ img {
 }
 
 .card {
-  margin-bottom: var(--md);
+  margin-bottom: var(--lg);
   margin-right: var(--md);
   min-height: 256px;
   width: 350px;
@@ -55,4 +56,9 @@ ul {
 
 .footer {
   margin-left: var(--md);
+}
+
+.footer img {
+  width: 100px;
+  height: 100px;
 }
